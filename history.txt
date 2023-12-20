@@ -1,48 +1,12 @@
-   0 /
-   1 cd /
-   2 pwd
-   3 cd home
-   4 mkdir user1
-   5 ls
-   6 cd user1/
-   7 mkdir task1
-   8 cd task1/
-   9 touch filel.txt
-  10 ls
-  11 cdhome
-  12 cd /
-  13 cd tree
-  14 cd /home
-  15 cd user1/
-  16 cd task1/
-  17 cd /home
-  18 cd /
-  19 cd
-  20 mkdir /home/user2
-  21 cd home
-  22 cd /home
-  23 ls
-  24 cd
-  25 ls /home
-  26 mkdir /home/user2/task2
-  27 ls /user2
-  28 ls /home/user2
-  29 touch /home/user2/task2/file2.txt
-  30 tree /home
-  31 mkdir -p task3/user3/home
-  32 tree home
-  33 tree /home
-  34 mkdir -p /home/user3/task3
-  35 ls /home
-  36 tree /home
-  37 touch /home/user3/task3/file3.txt
-  38 tree /home
-  39 cp /home/user1/task1/filel.txt /tmp/file.txt
-  40 tree /tmp
-  41 cp -r /home/user2 /tmp
-  42 tree /tmp
-  43 mv /home/user3/task3 /tmp
-  44 tree /tmp
-  45 tree /home
-  46 history > 
-  47 history > history.txt
+   0 mkdir -p /home/user/start | touch /home/user/start/1.txt
+   1 echo /home/user/start/1.txt "Start"
+   2 cat /home/user/start/1.txt 
+   3 echo "Start" >> /home/user/start/1.txt  
+   4 date >> /home/user/start/1.txt 
+   5 mkdir -p /opt/task 
+   6 cp /home/user/start/1.txt /opt/task/start.txt
+   7 ls -a /
+   8 ls -a | tail -4
+   9 ls -a | tail -4 | >> /opt/task/start.txt 
+  10 cat /opt/task/start.txt 
+  10 history >> history.txt
